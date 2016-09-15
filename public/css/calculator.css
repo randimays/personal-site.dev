@@ -1,0 +1,77 @@
+body.calculator {
+	background-image: url("../img/brillant.png");
+	background-repeat: repeat;
+}
+
+#calculator {
+	font-family: "Inconsolata", sans-serif;
+}
+
+#container {
+	width: 475px;
+	height: 410px;
+	margin: auto;
+	background-color: #191818;
+	border: 3px #403b3b solid;
+}
+
+h1#header {
+	color: #191818;
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+
+#inputs>input {
+	height: 50px;
+	background-color: #282c4e;
+	color: #fff;
+	font-size: 2em;
+	text-align: right;
+	border: 2px #6078bf solid;
+	padding: 10px;
+	margin: 12px 0 8px 0;
+}
+
+#groupBtns input {
+	width: 100px;
+	height: 45px;
+	background-color: #403b3b;
+	color: #fff;
+	font-size: 2em;
+	text-align: center;
+	border: 2px #777 solid;
+	margin-bottom: 8px;
+}
+
+#leftBox, #rightBox {
+	width: 39%;
+}
+
+#centerBox {
+	width: 8%;
+}
+
+.exponent {
+	font-size: .65em;
+}
+
+#groupBtns .colorOperators {
+	background-color: #c84c1b;
+	border: 2px #f49232 solid;
+}
+
+#groupBtns .clearColor {
+	background-color: #b12828;
+	border: 2px #f43232 solid;
+}
+
+#groupBtns .equalsColor {
+	background-color: #369f21;
+	border: 2px #26d44b solid;
+}
+
+#groupBtns .posnegColor {
+	background-color: #6078bf;
+	border: 2px #7e86f2 solid;
+
+}

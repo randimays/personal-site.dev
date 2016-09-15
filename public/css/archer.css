@@ -1,0 +1,103 @@
+.simplesimon {
+	background-color: black;
+	margin-top: -10px;
+}
+
+#gameButtonGroup {
+	margin: 15px auto 0 auto;
+	position: relative;
+	width: 615px;
+	height: 470px;
+}
+
+[data-value] {
+	width: 200px;
+	height: 230px;
+	position: absolute;
+	display: inline-block;
+	opacity: 0.4;
+}
+
+[data-value="0"] {
+	top: 0;
+	left: 0;
+}
+
+[data-value="1"] {
+	top: 0;
+	left: 33.60%;
+}
+
+[data-value="2"] {
+	top: 0;
+	right: 0;
+}
+
+[data-value="3"] {
+	bottom: 0;
+	left: 0;
+}
+
+[data-value="4"] {
+	bottom: 0;
+	left: 33.60%;
+}
+
+[data-value="5"] {
+	bottom: 0;
+	right: 0;
+}
+
+#startGame {
+	display: inline-block;
+	background-color: #48f100;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 1.25em;
+	color: black;
+	width: 307px;
+	height: 50px;
+	border: 1px dashed gray;
+	position: absolute;
+	right: 0;
+}
+
+#stats {
+	border: 1px dashed gray;
+	display: inline-block;
+	width: 307px;
+	height: 48px;
+	position: absolute;
+	left: 0;
+}
+
+#archerbanner {
+	margin: 10px auto 0 auto;
+	display: block;
+}
+
+#gameConsole {
+	margin: 0 auto 0 auto;
+	width: 615px;
+	height: 50px;
+	position: relative;
+}
+
+p.statstext {
+	color: gray;
+	font-family: sans-serif;
+	font-size: 1em;
+	text-align: center;
+	margin-top: 12px;
+}
+
+#levelnumber {
+	color: gray;
+	font-size: 1.15em;
+	margin-left: 3px;
+	margin-right: 7px;
+}
+
+#message {
+	color: #48f100;
+}

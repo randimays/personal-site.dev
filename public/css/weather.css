@@ -1,0 +1,44 @@
+#weather {
+	background-color: floralwhite;
+}
+
+.dayDiv {
+	float: left;
+	background-color: mistyrose;
+	padding: 20px;
+	width: 33.3%;
+	text-align: center;
+	border: 1px dotted palevioletred;
+}
+
+#customData {
+	margin-top: 0;
+}
+span.heading {
+	font-weight: bold;
+}
+
+#cityname, .row{
+	margin-top: 10px;
+}
+
+label, input {
+	margin-right: 5px;
+}
+
+p {
+	margin: 0;
+}
+
+h2 {
+	margin: 10px 0 5px 0;
+}
+
+.location {
+	color: palevioletred;
+}
+
+
+#map {
+	height: 290px;
+}
