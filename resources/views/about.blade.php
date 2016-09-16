@@ -17,7 +17,7 @@
 
 		<div class="row">
 			<div class="text-center marginTop20">
-				<a class="btn btn-default btn-lg" href="/contact.php" role="button">Let's Work Together</a>
+				<a class="btn btn-default btn-lg" href="{{ action('HomeController@contact') }}" role="button">Let's Work Together</a>
 			</div>
 		</div>
 
