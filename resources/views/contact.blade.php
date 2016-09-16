@@ -17,7 +17,7 @@
 					</div>
 					<div class="form-group">
 						<label class="control-label" for="message">message</label>
-						<textarea class="form-control" id="message" name="message" placeholder="Please enter your message here..." rows="5"></textarea>
+						<textarea class="form-control" id="message_form" name="message" placeholder="Please enter your message here..." rows="5"></textarea>
 					</div>
 					<div class="form-group">
 						<div class="col-sm-12 col-md-12 col-lg-12 text-right">
