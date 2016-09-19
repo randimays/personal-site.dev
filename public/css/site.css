@@ -80,6 +80,7 @@ div.liv100Width {
 	width: 100%;
 	margin: 0;
 	padding: 0;
+	overflow: hidden;
 }
 
 div.mpFullSize {
