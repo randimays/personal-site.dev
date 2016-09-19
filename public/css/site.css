@@ -76,6 +76,10 @@ div.livFullSize, div.mpFullSize, div.goFullSize, div.archerBackground {
 	background-repeat: repeat;
 }
 
+.liv100Width {
+	width: 100%;
+}
+
 .mpFullSize {
 	background-color: #fffdf4;
 }

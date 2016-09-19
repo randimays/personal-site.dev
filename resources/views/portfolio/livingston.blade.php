@@ -1,7 +1,9 @@
 @extends('layouts.master')
 @section('content')
 
-<img alt="Livingston Website Design" class="img-responsive" src="/img/livingston_heroimage.jpg">
+<div class="liv100Width">
+	<img alt="Livingston Website Design" class="img-responsive" src="/img/livingston_heroimage.jpg">
+</div>
 
 	<div class="container">
 
