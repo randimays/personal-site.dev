@@ -49,19 +49,19 @@ body#weather {
 
 /*divs*/
 
-.container {
+div.container {
 	margin: auto;
 	width: 60%;
 	padding: 0;
 }
 
-.portfolioCallout {
+div.portfolioCallout {
 	background-color: #fbaf3f;
 	height: auto;
 	padding: 75px 0;
 }
 
-.calloutContainer {
+div.calloutContainer {
 	width: 80%;
 	margin: auto;
 }
@@ -76,11 +76,13 @@ div.livFullSize, div.mpFullSize, div.goFullSize, div.archerBackground {
 	background-repeat: repeat;
 }
 
-.liv100Width {
+div.liv100Width {
 	width: 100%;
+	margin: 0;
+	padding: 0;
 }
 
-.mpFullSize {
+div.mpFullSize {
 	background-color: #fffdf4;
 }
 
@@ -89,34 +91,34 @@ div.mpFullSizeImg {
 	padding: 60px 0 30px 0;
 }
 
-.goFullSize {
+div.goFullSize {
 	background-image: url("/img/paper_fibers.png");
 	background-repeat: repeat;
 }
 
-.jsCalcSection {
+div.jsCalcSection {
 	background-image: url("/img/brillant.png");
 	background-repeat: repeat;
 	width: 100%;
 	padding: 75px 100px;
 }
 
-.interiorContainer {
+div.interiorContainer {
 	margin: auto;
 	width: 85%;
 	padding: 0;
 }
 
-.photoSection {
+div.photoSection {
 	padding-bottom: 175px;
 }
 
-.archerBackground {
+div.archerBackground {
 	background-image: url("/img/archer_background.png");
 	background-repeat: repeat;
 }
 
-.portfolioSectionWhiteBg {
+div.portfolioSectionWhiteBg {
 	padding: 75px 0;
 }
 
@@ -151,6 +153,11 @@ img.livThumb {
 img.mp_full {
 	border-top: 1px solid #e7e7e7;
 	border-bottom: 1px solid #e7e7e7;
+}
+
+img.liv100WidthImage {
+	margin: 0;
+	padding: 0;
 }
 
 a#linkedIn {

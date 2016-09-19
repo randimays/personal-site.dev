@@ -2,7 +2,7 @@
 @section('content')
 
 <div class="liv100Width">
-	<img alt="Livingston Website Design" class="img-responsive" src="/img/livingston_heroimage.jpg">
+	<img alt="Livingston Website Design" class="img-responsive liv100WidthImage" src="/img/livingston_heroimage.jpg">
 </div>
 
 	<div class="container">
