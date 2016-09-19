@@ -158,6 +158,7 @@ img.mp_full {
 img.liv100WidthImage {
 	margin: 0;
 	padding: 0;
+	width: 100%;
 }
 
 a#linkedIn {
