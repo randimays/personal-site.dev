@@ -202,7 +202,7 @@ h1.page_head_gray {
 	color: #333;
 }
 
-h2.portfolio_head_gray, h2.portfolioHeadWhite, h2.resume_head_gray, h2.secondaryHeadGray  {
+h2.portfolio_head_gray, h2.portfolio_head_white, h2.resume_head_gray {
 	font-size: 1.75em;
 	font-weight: 500;
 	margin-top: 0;
@@ -213,12 +213,7 @@ h2.resume_head_gray {
 	margin-bottom: 25px;
 }
 
-h2.secondaryHeadGray {
-	margin-top: 50px;
-	margin-bottom: 50px;
-}
-
-h2.portfolio_head_gray, h3.resumeHeadGray, h4.gitHeadGray, h2.secondaryHeadGray {
+h2.portfolio_head_gray, h3.resume_head_gray {
 	color: #333;
 }
 
