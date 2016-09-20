@@ -25,7 +25,7 @@ class PortfolioController extends Controller
 		$work = true;
 		$resume = false;
 		$contact = false;
-		$extra = true;
+		$extra = false;
 		$data = compact('about', 'work', 'resume', 'contact', 'extra');
 		return view('/portfolio/goodHousekeeping')->with($data);
 	}

@@ -47,7 +47,7 @@ class HomeController extends Controller
 		$work = true;
 		$resume = false;
 		$contact = false;
-		$extra = false;
+		$extra = true;
 		$data = compact('about', 'work', 'resume', 'contact', 'extra');
 		return view('development')->with($data);
 	}

@@ -79,7 +79,7 @@ $(document).ready(function() {
 				timestamp = moment().add(2, "days").format("dddd");
 			}
 
-			var data = "<div class=\"dayDiv col-md-4\">" + timestamp + "<h3>" + highTemperature + "&deg;/" + lowTemperature + "&deg;</h3>" + "<p><img alt=\"weather icon\" src=\"http://openweathermap.org/img/w/" + icon + ".png\"></p><p><span class=\"heading\">" + main + ":</span> " + description + "</p><p><span class=\"heading\">Humidity:</span> " + humidity + "&#37;</p><p><span class=\"heading\">Wind:</span> " + wind + " mph</p><p><span class=\"heading\">Pressure: </span> " + pressure + " mb</p></div>";
+			var data = "<div class=\"dayDiv col-md-4\">" + timestamp + "<h3>" + highTemperature + "&deg;/" + lowTemperature + "&deg;</h3>" + "<p class=\"weather\"><img alt=\"weather icon\" src=\"http://openweathermap.org/img/w/" + icon + ".png\"></p><p class=\"weather\"><span class=\"heading\">" + main + ":</span> " + description + "</p><p class=\"weather\"><span class=\"heading\">Humidity:</span> " + humidity + "&#37;</p><p class=\"weather\"><span class=\"heading\">Wind:</span> " + wind + " mph</p><p class=\"weather\"><span class=\"heading\">Pressure: </span> " + pressure + " mb</p></div>";
 			divHolder.append(data);
 		})
 	}

@@ -1,32 +1,32 @@
 @extends('layouts.master')
 @section('content')
 
-<h1 class="pageHeadGray text-center">Resume</h1>
+<h1 class="page_head_gray">Resume</h1>
 	
 	<div class="container">
 
 		<!-- Summary -->
 		<div class="row">
-			<p class="lead col-sm-12 col-md-12 col-lg-12">Software developer with graphic design background pursuing a career as part of a development team. Resourceful problem-solver and quick learner with experience developing applications on the front and back end. Strong advocate of highly organized and reusable code.</p>
+			<p class="lead col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">Software developer with graphic design background pursuing a career as part of a development team. Resourceful problem-solver and quick learner with experience developing applications on the front and back end. Strong advocate of highly organized and reusable code.</p>
 		</div>
 
 		<!-- Skills -->
 
-		<h2 class="resumeHeadGray">Skills</h2>
+		<h2 class="resume_head_gray">Skills</h2>
 		<div class="row">
-			<div class="col-sm-12 col-md-12 col-lg-12">
-				<p><span class="skillCategory">Front End</span>HTML, CSS, Twitter Bootstrap, JavaScript, jQuery, AJAX and experience with APIs</p>
-				<p><span class="skillCategory">Back End</span>PHP/Laravel, MySQL</p>
-				<p><span class="skillCategory">CMS</span>WordPress, Drupal</p>
-				<p><span class="skillCategory">Software</span>Adobe Creative Suite, Sublime Text, Slicy, Espresso, Sequel Pro</p>
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+				<p><span class="skill_category">Front End</span>HTML, CSS, Twitter Bootstrap, JavaScript, jQuery, AJAX and experience with APIs</p>
+				<p><span class="skill_category">Back End</span>PHP/Laravel, MySQL</p>
+				<p><span class="skill_category">CMS</span>WordPress, Drupal</p>
+				<p><span class="skill_category">Software</span>Adobe Creative Suite, Sublime Text, Slicy, Espresso, Sequel Pro</p>
 			</div>
 		</div>
 
 		<!-- Work Experience -->
 
-		<h2 class="resumeHeadGray">Work Experience</h2>
+		<h2 class="resume_head_gray">Work Experience</h2>
 		<div class="row">
-			<div class="col-sm-12 col-md-12 col-lg12">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
 				<h4 class="company">Toolbox Studios, <span class="title">Graphic Designer</span><span class="dates">[ 10/15 - 03/16 ]</span></h4>
 				<ul>
 					<li>Executed layout of a variety of brand-aligned print and digital pieces in collaboration with creative team</li>
@@ -51,9 +51,9 @@
 
 		<!-- Education -->
 
-		<h2 class="resumeHeadGray">Education</h2>
+		<h2 class="resume_head_gray">Education</h2>
 		<div class="row">
-			<div class="col-sm-12 col-md-12 col-lg-12">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
 				<h4 class="school">Codeup, <span class="title">Certificate Pending</span><span class="dates">[ 05/16 - Present ]</span></h4>
 				<ul>
 					<li>16 week immersive full-stack web development course in San Antonio focused on LAMP+J languages and technologies</li>
@@ -66,13 +66,13 @@
 
 
 		<div class="row">
-			<div class="col-sm-12 col-md-12 col-lg-12">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
 				<h4 class="school">The Art Institute of San Antonio, <span class="title">Bachelor of Fine Arts - Graphic Design<span class="dates">[ 10/10 - 12/13 ]</span></h4>			
 			</div>
 		</div>
 
 		<div class="row">
-			<div class="col-sm-12 col-md-12 col-lg-12">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
 				<h4 class="school">Temple College, <span class="title">Associate of Arts - General Studies<span class="dates">[ 08/06 - 12/09 ]</span></h4>				
 			</div>
 		</div>

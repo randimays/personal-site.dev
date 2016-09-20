@@ -1,7 +1,7 @@
 @extends('layouts.master')
 @section('content')
 
-<h1 class="pageHeadGray text-center">Contact</h1>
+<h1 class="page_head_gray">Contact</h1>
 	
 	<div class="container">
 		<div class="row">

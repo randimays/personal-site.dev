@@ -16,7 +16,7 @@
 	<link href="/css/weather.css" type="text/css" rel="stylesheet">
 	<link href="/css/calculator.css" type="text/css" rel="stylesheet">
 </head>
-<body class="{{ $extra ? 'extraSpaceForFooter' : ''}}">
+<body class="{{ $extra ? 'extra_footer_space' : ''}}">
 
 	<div class="navbar navbar-default navbar-fixed-top">
 		<div class="container">
