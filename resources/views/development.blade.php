@@ -7,12 +7,12 @@
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
-				<a href="{{ action('PortfolioController@membersPortal') }}" alt="Members Portal">
+				<a href="https://members-portal.com/about" target="_blank" alt="Members Portal">
 					<img src="/img/mp_home.jpg" alt="Members Portal Home" class="img-responsive thumb">
 				</a>
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-5 col-xl-5 col-lg-offset-1 col-xl-offset-1">
-				<p class="lead"><span class="strong">Members Portal</span> is a portal for members of a city organization such as a chamber of commerce to make professional connections with other members and have an invaluable resource for staffing (per-project or permanent) needs.<a class="see_project" href="{{ action('PortfolioController@membersPortal') }}" alt="Members Portal">&nbsp;&nbsp;see project </a></p>
+				<p class="lead"><span class="strong">Members Portal</span> is a portal for members of a city organization such as a chamber of commerce to make professional connections with other members and have an invaluable resource for staffing (per-project or permanent) needs.<a class="see_project" href="https://members-portal.com/about" target="_blank" alt="Members Portal">&nbsp;&nbsp;see project </a></p>
 				<hr>
 				<p class="categories_small">php, laravel, html, css, bootstrap, javascript, jquery, twitter api, google maps api</p>
 			</div>

@@ -30,17 +30,6 @@ class PortfolioController extends Controller
 		return view('/portfolio/goodHousekeeping')->with($data);
 	}
 
-	public function membersPortal()
-	{
-		$about = false;
-		$work = true;
-		$resume = false;
-		$contact = false;
-		$extra = true;
-		$data = compact('about', 'work', 'resume', 'contact', 'extra');
-		return view('/portfolio/membersPortal')->with($data);
-	}
-
 	public function jsCalculator()
 	{
 		$about = false;

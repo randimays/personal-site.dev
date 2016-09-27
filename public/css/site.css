@@ -416,6 +416,10 @@ a:hover.see_project {
 	margin-bottom: 0;
 }
 
+ul.navbar-nav, ul.navbar-nav > li.dropdown > ul.dropdown-menu {
+	text-align: center;
+}
+
 .navbar-brand {
 	padding-right: 8px;
 }

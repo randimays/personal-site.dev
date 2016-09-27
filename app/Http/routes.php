@@ -23,7 +23,6 @@ Route::get('/portfolio/goodHousekeeping', 'PortfolioController@goodHousekeeping'
 
 // Development
 Route::get('/development', 'HomeController@development');
-Route::get('/portfolio/membersPortal', 'PortfolioController@membersPortal');
 Route::get('/portfolio/weatherMap', 'PortfolioController@weatherMap');
 Route::get('/portfolio/jsCalculator', 'PortfolioController@jsCalculator');
 Route::get('/portfolio/simpleArcher', 'PortfolioController@simpleArcher');
