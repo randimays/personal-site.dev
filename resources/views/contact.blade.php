@@ -13,12 +13,14 @@
 					</div>
 					<div class="form-group">
 						<label class="control-label" for="email">email address</label>
-						<input id="email" name="email" type="text" placeholder="you@example.com" class="form-control">
+						<input id="email" name="_replyto" type="email" placeholder="you@example.com" class="form-control">
 					</div>
 					<div class="form-group">
 						<label class="control-label" for="message">message</label>
 						<textarea class="form-control" id="message_form" name="message" placeholder="Please enter your message here..." rows="5"></textarea>
 					</div>
+					<input type="hidden" name="_subject" value="Randimariedesigns.com Submission" />
+					<input type="text" name="_gotcha" style="display:none" />
 					<div class="form-group">
 						<div class="col-sm-12 col-md-12 col-lg-12 text-right">
 							<button type="submit" class="btn btn-default btn-lg">submit</button>
