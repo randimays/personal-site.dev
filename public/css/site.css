@@ -471,3 +471,11 @@ i.fa.fa-check.about {
 .form-control {
 	resize: none;
 }
+
+.messages {
+	height: 60px;
+}
+
+.messages .alert {
+	display: none;
+}

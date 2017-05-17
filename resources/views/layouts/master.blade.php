@@ -65,6 +65,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDIpqCtja5_cTG5h4K-gJeAhvb5BC1CiXs"></script>
 	<script src="/js/bootstrap/bootstrap.min.js"></script>
+	<script src="/js/contact-form.js"></script>
 	<script src="/js/archer.js"></script>
 	<script src="/js/weather.js"></script>
 	<script src="/js/moment.js"></script>
