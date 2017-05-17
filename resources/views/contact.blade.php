@@ -9,15 +9,15 @@
 				<form id="contact-form" action="//formspree.io/randimays1024@gmail.com" method="POST">
 					<div class="form-group">
 						<label class="control-label" for="name">name</label>
-						<input id="name" name="name" type="text" placeholder="First Last" class="form-control">
+						<input id="name" name="name" type="text" placeholder="First Last" class="form-control" required>
 					</div>
 					<div class="form-group">
 						<label class="control-label" for="email">email address</label>
-						<input id="email" name="_replyto" type="email" placeholder="you@example.com" class="form-control">
+						<input id="email" name="_replyto" type="email" placeholder="you@example.com" class="form-control" required>
 					</div>
 					<div class="form-group">
 						<label class="control-label" for="message">message</label>
-						<textarea class="form-control" id="message_form" name="message" placeholder="Please enter your message here..." rows="5"></textarea>
+						<textarea class="form-control" id="message_form" name="message" placeholder="Please enter your message here..." rows="5" required></textarea>
 					</div>
 					<input type="hidden" name="_subject" value="Randimariedesigns.com Submission" />
 					<div class="form-group">
