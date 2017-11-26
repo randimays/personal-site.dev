@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
+import React from 'react';
+
+const Peacock = () => {
+	return (
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 687.9 1048" style="enable-background:new 0 0 687.9 1048;" xml:space="preserve">
 
 <style>
@@ -1370,3 +1373,8 @@
 			<stop offset="1" style="stop-color:#D9E033"/>
 		</linearGradient></g>
 </svg>
+	);
+}
+
+export default Peacock;
+
