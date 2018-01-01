@@ -7,33 +7,45 @@ const Header = () => {
 	// const {active} = props;
 	// const activeLink = classNames({active: 'active-link'});
 	return (
-		<div className="navbar navbar-default navbar-fixed-top">
-			<div className="container">
-				<div className="navbar-header">
-					<button type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+		<header>
+			<div className="navbar-container">
+				<div className="navbar-flex-blocks">
+					<button 
+						type="button" 
+						className="navbar-toggle collapsed" 
+						aria-expanded="false"
+						aria-controls="navbar"
+					>
 						<span className="sr-only">Toggle navigation</span>
 						<span className="icon-bar"></span>
 						<span className="icon-bar"></span>
 						<span className="icon-bar"></span>
 					</button>
-					<Link className="navbar-brand" to="/">
-						<img alt="randi mays logo" id="logo" src={logo} />
+					<Link 
+						to="/" 
+						className="logo"
+					>
+						<img 
+							alt="randi mays logo" 
+							src={logo} 
+						/>
 					</Link>
-					<Link to="/">
-						<p className="headerName">randi<strong>mays</strong></p>
+					<Link 
+						className="header-name" 
+						to="/" 
+					>
+						randi<strong>mays</strong>
 					</Link>
 				</div>
-			
-				<div id="navbar" className="collapse navbar-collapse navbar-responsive-collapse navbar-right">
-					<ul className="nav navbar-nav">
+				<div className="navbar-flex-blocks">
+					<ul className="navbar-links">
 						<Link to="/about">about</Link>
-						<Link to="/development">development</Link>
-						<a>resume</a>
+						<Link to="/work">work</Link>
 						<Link to="/contact">contact</Link>
 					</ul>
 				</div>
-		</div>
-	</div>
+			</div>
+		</header>
 	);
 };
 

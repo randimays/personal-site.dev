@@ -1,0 +1,98 @@
+/* Header */
+
+.logo {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.logo, .logo img {
+	height: 50px;
+	width: 30px;
+}
+
+.header-name {
+	position: absolute;
+	top: 11px;
+	color: #777;
+	font-size: 19px;
+}
+
+header {
+	height: 50px;
+	background-color: #F8F8F8;
+	border-bottom: 1px solid #E7E7E7;
+}
+
+.navbar-container {
+	display: flex;
+	width: 75%;
+	margin: auto;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.navbar-links {
+	margin: -10px 0 0 0;
+}
+
+.navbar-links a {
+	margin-right: 37px;
+	font-size: 14px;
+	color: #777;
+}
+
+.navbar-links a:last-child {
+	margin-right: 0;
+}
+
+@media screen and (min-width: 768px) {
+	.navbar-toggle {
+		display: none;
+	}
+}
+
+/* Footer */
+footer {
+	position: absolute;
+	bottom: 0;
+	height: 50px;
+	width: 100%;
+	background-color: #f8f8f8;
+	border-top: 1px solid #e7e7e7;
+}
+
+footer a, p {
+	margin: 0;
+	color: #777;
+	font-size: 15px;
+}
+
+.copyright {
+	vertical-align: middle;
+	font-size: 11px;
+}
+
+.footer-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 75%;
+	margin: auto;
+	padding: 12px 0;
+}
+
+footer img {
+	display: inline-block;
+	height: 20px;
+	width: 20px;
+	margin-top: -3px;
+	vertical-align: middle;
+}
+
+.linkedin {
+	margin-left: 15px;
+}
+
+.github {
+	margin-left: 5px;
+}

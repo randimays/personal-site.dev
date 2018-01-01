@@ -5,11 +5,17 @@ import { BrowserRouter } from 'react-router-dom';
 import configureStore from './redux/configureStore';
 
 import Header from './common/header';
+import Footer from './common/footer';
 import Home from './components/home';
 import About from './components/about';
-import Development from './components/development';
+import Work from './components/work';
 import Contact from './components/contact';
-import './css/style.css';
+import './css/main.css';
+import './css/header-footer.css';
+import './css/archer.css';
+import './css/calculator.css';
+import './css/peacock.css';
+import './css/weather.css';
 
 let store = configureStore();
 const DefaultLayout = ({component: Component, ...rest}) => {
@@ -18,7 +24,7 @@ const DefaultLayout = ({component: Component, ...rest}) => {
 			<div>
 				<Header />
 				<Component {...matchProps} />
-				<div className="footer">Footer</div>
+				<Footer />
 			</div>
 		)} />
 	);
@@ -31,7 +37,7 @@ class App extends Component {
 				<BrowserRouter>
 					<Switch>
 						<DefaultLayout path="/about" component={About} />
-						<DefaultLayout path="/development" component={Development} />
+						<DefaultLayout path="/work" component={Work} />
 						<DefaultLayout path="/contact" component={Contact} />
 						<DefaultLayout path="/" component={Home} />
 					</Switch>

@@ -7,11 +7,70 @@ html {
 	min-height: 100%;
 }
 
-body {
-	font-family: 'Catamaran', sans-serif;
-	padding-top: 50px;
-	margin: 0;
+.sr-only {
+	display: none;
 }
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Catamaran', sans-serif;
+	letter-spacing: .02em;
+}
+
+a, a:visited {
+	text-decoration: none;
+}
+
+a:hover, a:active, a:focus {
+	text-decoration: underline;
+	text-underline-position: under;
+}
+
+a.header-name {
+	text-decoration: none;
+}
+
+/* Peacock - Main Page */
+
+.peacock-illustration {
+	margin: 0 auto;
+	padding: 55px 0;
+	width: 300px;
+}
+
+.peacock-link {
+	position: absolute;
+	left: 55%;
+	top: 38%;
+	text-decoration: none;
+	color: #FBAF3F;
+	font-size: 15px;
+	animation-name: peacockLink;
+	animation-duration: .5s;
+	animation-delay: 3.75s;
+	animation-timing-function: ease-in;
+	opacity: 0;
+	animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes peacockLink {
+	from {opacity: 0;}
+	to {opacity: 1;}}
+@-o-keyframes peacockLink {
+	from {opacity: 0;}
+	to {opacity: 1;}}
+@-moz-keyframes peacockLink {
+	from {opacity: 0;}
+	to {opacity: 1;}}
+@keyframes peacockLink {
+	from {opacity: 0;}
+	to {opacity: 1;}}
+
+
+
+
+
 
 body.extra_footer_space {
 	padding-bottom: 100px;
@@ -98,27 +157,11 @@ div.photo_section {
 	padding-bottom: 75px;
 }
 
-footer {
-	background-color: #f8f8f8;
-	border-top: 1px solid #e7e7e7;
-	height: 50px;
-	width: 100%;
-	position: absolute;
-	bottom: 0;
-}
-
 div.about {
 	margin-left: 30px;
 }
 
 /*images*/
-
-#logo {
-	height: 40px;
-	width: 40px;
-	max-width: 100px; 
-	margin-top: -9px;
-}
 
 img.thumb {
 	border: 1px solid #e7e7e7;
@@ -133,55 +176,10 @@ img.liv_100_width_image {
 	width: 100%;
 }
 
-a#linkedIn {
-	background-image: url("/img/linkedin-dreamstale45.png");
-	background-repeat: no-repeat;
-	vertical-align: middle;
-	width: 25px;
-	height: 25px;
-	margin-left: 10px;
-	margin-top: -3px;
-}
 
-a#linkedIn:hover {
-	background-image: url("/img/linkedin-dreamstale45_hover.png");
-}
-
-a#facebook {
-	background-image: url("/img/facebook-dreamstale25.png");
-	background-repeat: no-repeat;
-	vertical-align: middle;
-	width: 25px;
-	height: 25px;
-	margin-top: -3px;
-}
-
-a#facebook:hover {
-	background-image: url("/img/facebook-dreamstale25_hover.png");
-}
-
-a#twitter {
-	background-image: url("/img/twitter2-dreamstale72.png");
-	background-repeat: no-repeat;
-	vertical-align: middle;
-	width: 25px;
-	height: 25px;
-	margin-top: -3px;
-}
-
-a#twitter:hover {
-	background-image: url("/img/twitter2-dreamstale72_hover.png");
-}
 
 img.liv_full_size_image, img.mp_full_size_image {
 	width: 100%;
-}
-
-#peacock_illustration {
-	padding: 75px 0;
-	min-width: 10%;
-	width: 300px;
-	vertical-align: middle;
 }
 
 img.peacock {
@@ -233,25 +231,6 @@ p.categories_small {
 	text-transform: lowercase;
 	color: #a7a9ac;
 	margin-top: 0;
-}
-
-p.footerText {
-	color: #909090;
-}
-
-p.footerText, a#linkedIn, a#facebook, a#twitter {
-	display: inline-block;
-}
-
-p.footerText {
-	margin-top: 15px;
-}
-
-p.headerName {
-	display: inline-block;
-	font-size: 1.4em;
-	color: #777;
-	margin-top: 12px;
 }
 
 p.lead {
@@ -314,46 +293,10 @@ a.portfolio_link {
 	color: #d9e033;
 }
 
-a.the_peacock_link {
-	position: absolute;
-	left: 55%;
-	top: 38%;
-	text-decoration: none;
-	color: #fbaf3f;
-	animation-name: peacockLink;
-	animation-duration: .5s;
-	animation-delay: 3.75s;
-	animation-timing-function: ease-in;
-	opacity: 0;
-	animation-fill-mode: forwards;
-}
-
-@-webkit-keyframes peacockLink {
-	from {opacity: 0;}
-	to {opacity: 1;}}
-@-o-keyframes peacockLink {
-	from {opacity: 0;}
-	to {opacity: 1;}}
-@-moz-keyframes peacockLink {
-	from {opacity: 0;}
-	to {opacity: 1;}}
-@keyframes peacockLink {
-	from {opacity: 0;}
-	to {opacity: 1;}}
-
 a:hover.portfolioLink {
 	color: #d9e033;
 	text-decoration: none;
 	font-weight: 700;
-}
-
-.footer .footerLink {
-	color: #222;
-	text-decoration: none;
-}
-
-.footer a:hover {
-	color: #d9e033;
 }
 
 a.see_project {

@@ -1,0 +1,42 @@
+footer {
+	position: absolute;
+	bottom: 0;
+	height: 50px;
+	width: 100%;
+	background-color: #f8f8f8;
+	border-top: 1px solid #e7e7e7;
+}
+
+footer a, p {
+	color: #777;
+	font-size: 15px;
+}
+
+.copyright {
+	vertical-align: middle;
+	font-size: 11px;
+}
+
+.footer-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 75%;
+	margin: auto;
+}
+
+footer img {
+	display: inline-block;
+	height: 25px;
+	width: 25px;
+	margin-top: -3px;
+	vertical-align: middle;
+}
+
+.linkedin {
+	margin-left: 15px;
+}
+
+.github {
+	margin-left: 5px;
+}
