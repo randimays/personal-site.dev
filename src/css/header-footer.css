@@ -53,15 +53,14 @@ header {
 
 /* Footer */
 footer {
-	position: absolute;
-	bottom: 0;
 	height: 50px;
 	width: 100%;
+	margin-top: 55px;
 	background-color: #f8f8f8;
 	border-top: 1px solid #e7e7e7;
 }
 
-footer a, p {
+footer a, footer p {
 	margin: 0;
 	color: #777;
 	font-size: 15px;

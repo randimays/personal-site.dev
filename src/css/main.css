@@ -2,13 +2,13 @@
 	display: none;
 }
 
+.sr-only {
+	display: none;
+}
+
 html {
 	position: relative;
 	min-height: 100%;
-}
-
-.sr-only {
-	display: none;
 }
 
 body {
@@ -16,7 +16,21 @@ body {
 	padding: 0;
 	font-family: 'Catamaran', sans-serif;
 	letter-spacing: .02em;
+	color: #333;
 }
+
+.container {
+	margin: 0 auto;
+	padding: 0;
+	width: 75%;
+}
+
+.flex-container {
+	display: flex;
+	align-items: flex-start;
+}
+
+/* Links */
 
 a, a:visited {
 	text-decoration: none;
@@ -35,7 +49,7 @@ a.header-name {
 
 .peacock-illustration {
 	margin: 0 auto;
-	padding: 55px 0;
+	padding: 55px 0 0;
 	width: 300px;
 }
 
@@ -67,7 +81,58 @@ a.header-name {
 	from {opacity: 0;}
 	to {opacity: 1;}}
 
+/* Headers */
 
+h1 {
+	text-align: center;
+	font-size: 2em;
+	font-weight: 700;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	color: #333;
+}
+
+/* Buttons */
+.work-button {
+	display: inline-block;
+	margin-top: 12px;
+	padding: 7px 12px;
+	background-color: #D9E033;
+	border: 1px solid #BCC229;
+}
+
+a.work-button {
+	text-decoration: none;
+}
+
+.work-button:hover {
+	background-color: #FFF;
+	border: 1px solid #333;
+}
+
+/* Images */
+
+.randi-photo {
+	flex-basis: 30%;
+	margin-right: 45px;
+}
+
+.peacock {
+	width: 200px;
+	margin-right: 45px;
+}
+
+/* Body Text */
+
+.about-text p:not(.lead) {
+	margin: 10px 0;
+}
+
+.lead {
+	margin: 0 0 22px 0;
+	font-size: 24px;
+	line-height: 32px;
+}
 
 
 
@@ -111,12 +176,6 @@ hr {
 }
 
 /*divs*/
-
-div.container {
-	margin: auto;
-	width: 60%;
-	padding: 0;
-}
 
 div.portfolio_callout {
 	background-color: #fbaf3f;
@@ -177,28 +236,11 @@ img.liv_100_width_image {
 }
 
 
-
 img.liv_full_size_image, img.mp_full_size_image {
 	width: 100%;
 }
 
-img.peacock {
-	margin-bottom: 30px;
-}
-
 /*text*/
-
-h1 {
-	text-align: center;
-}
-
-h1.page_head_gray {
-	font-size: 2em;
-	font-weight: 700;
-	margin-top: 50px;
-	margin-bottom: 50px;
-	color: #333;
-}
 
 h2.portfolio_head_gray, h2.portfolio_head_white, h2.resume_head_gray {
 	font-size: 1.75em;
@@ -231,10 +273,6 @@ p.categories_small {
 	text-transform: lowercase;
 	color: #a7a9ac;
 	margin-top: 0;
-}
-
-p.lead {
-	font-weight: 300;
 }
 
 p.photo_caption {
