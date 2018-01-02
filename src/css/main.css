@@ -13,7 +13,7 @@ html {
 
 body {
 	margin: 0;
-	padding: 0;
+	padding: 0 0 75px;
 	font-family: 'Catamaran', sans-serif;
 	letter-spacing: .02em;
 	color: #333;
@@ -93,19 +93,22 @@ h1 {
 }
 
 /* Buttons */
-.work-button {
+
+.button {
 	display: inline-block;
 	margin-top: 12px;
 	padding: 7px 12px;
+	font-size: 16px;
 	background-color: #D9E033;
 	border: 1px solid #BCC229;
+	cursor: pointer;
 }
 
-a.work-button {
+a.button {
 	text-decoration: none;
 }
 
-.work-button:hover {
+.button:hover {
 	background-color: #FFF;
 	border: 1px solid #333;
 }
@@ -132,6 +135,42 @@ a.work-button {
 	margin: 0 0 22px 0;
 	font-size: 24px;
 	line-height: 32px;
+}
+
+/* Form */
+
+.form-control {
+	resize: none;
+}
+
+.form-group {
+	margin-bottom: 22px;
+}
+
+input, textarea {
+	display: block;
+	width: 96.5%;
+	height: 34px;
+	padding: 0 12px;
+	font-size: 14px;
+	line-height: 1.4;
+	color: #333;
+	background-color: #FFF;
+	border: 1px solid #CCC;
+	border-radius: 2px;
+}
+
+textarea {
+	padding: 12px 12px 0;
+	resize: none;
+}
+
+.messages {
+	height: 45px;
+}
+
+.messages .alert {
+	display: none;
 }
 
 
@@ -405,33 +444,6 @@ ul.navbar-nav, ul.navbar-nav > li.dropdown > ul.dropdown-menu {
 	padding-right: 8px;
 }
 
-.navbar-default .navbar-nav > li > a:hover {
-	color: #d9e033;
-}
-
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-	background-color: #d9e033;
-	font-weight: bold;
-	text-decoration: none;
-}
-
-.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
-	background-color: #d9e033;
-	font-weight: bold;
-	text-decoration: none;
-}
-
-.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
-	color: #d9e033;
-	background-color: #fff;
-}
-
-.navbar-default .navbar-nav > .active > a:hover {
-	color: #fff;
-	font-weight: bold;
-	text-decoration: none;
-}
-
 .dropdown-menu {
 	min-width: 0;
 	-webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, .085);
@@ -445,18 +457,4 @@ i.fa.fa-check.about {
 	margin-top: 20px;
 	margin-right: 8px;
 	font-size: .75em;
-}
-
-/*inputs*/
-
-.form-control {
-	resize: none;
-}
-
-.messages {
-	height: 60px;
-}
-
-.messages .alert {
-	display: none;
 }

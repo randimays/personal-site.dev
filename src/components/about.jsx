@@ -13,7 +13,7 @@ const About = () => {
 					<p className="lead">I am a graphic designer and front end developer.</p>
 					<p>Like anyone, my bacon-bringing profession doesn’t describe a singular skill set. I possess some handy dandy administrative skills and I’ve achieved guru status as a customer service rep. In a pinch, I’ve been known to dazzle a client with marketing copy.</p>
 					<p>I am a persistent, problem-solving, challenge-loving, hyper organized designer/developer who enjoys work in fast-paced, dynamic companies.</p>
-					<Link className="work-button" to="/contact">Let's Work Together</Link>
+					<Link className="button" to="/contact">Let's Work Together</Link>
 				</div>
 			</div>
 

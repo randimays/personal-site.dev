@@ -1,6 +1,6 @@
 import React from 'react';
 // import classNames from 'classnames';
-import {Link} from 'react-router-dom';
+import {Link, NavLink} from 'react-router-dom';
 import logo from '../img/r_logo.svg';
 
 const Header = () => {
@@ -39,9 +39,24 @@ const Header = () => {
 				</div>
 				<div className="navbar-flex-blocks">
 					<ul className="navbar-links">
-						<Link to="/about">about</Link>
-						<Link to="/work">work</Link>
-						<Link to="/contact">contact</Link>
+						<NavLink 
+							activeClassName="active"
+							to="/about"
+						>
+							about
+						</NavLink>
+						<NavLink 
+							activeClassName="active"
+							to="/work"
+						>
+							work
+						</NavLink>
+						<NavLink 
+							activeClassName="active"
+							to="/contact"
+						>
+							contact
+						</NavLink>
 					</ul>
 				</div>
 			</div>

@@ -36,13 +36,17 @@ header {
 }
 
 .navbar-links a {
-	margin-right: 37px;
+	padding: 14px;
 	font-size: 14px;
 	color: #777;
 }
 
 .navbar-links a:last-child {
 	margin-right: 0;
+}
+
+.navbar-links .active {
+	background-color: #D9E033;
 }
 
 @media screen and (min-width: 768px) {
@@ -53,6 +57,8 @@ header {
 
 /* Footer */
 footer {
+	position: absolute;
+	bottom: 0;
 	height: 50px;
 	width: 100%;
 	margin-top: 55px;
