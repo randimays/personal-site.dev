@@ -10,6 +10,7 @@ import Home from './components/home';
 import About from './components/about';
 import Work from './components/work';
 import Contact from './components/contact';
+import MembersPortal from './components/projects/members-portal';
 import './css/main.css';
 import './css/header-footer.css';
 import './css/archer.css';
@@ -18,6 +19,7 @@ import './css/peacock.css';
 import './css/weather.css';
 
 let store = configureStore();
+
 const DefaultLayout = ({component: Component, ...rest}) => {
 	return (
 		<Route {...rest} render={matchProps => (
@@ -30,6 +32,16 @@ const DefaultLayout = ({component: Component, ...rest}) => {
 	);
 };
 
+const PortfolioLayout = ({component: Component, ...rest}) => {
+	return (
+		<Route {...rest} render={matchProps => (
+			<div>
+				<Component {...matchProps} />
+			</div>
+		)} />
+	);
+};
+
 class App extends Component {
 	render() {
 		return (
@@ -37,8 +49,9 @@ class App extends Component {
 				<BrowserRouter>
 					<Switch>
 						<DefaultLayout path="/about" component={About} />
-						<DefaultLayout path="/work" component={Work} />
 						<DefaultLayout path="/contact" component={Contact} />
+						<DefaultLayout path="/work" component={Work} />
+						<PortfolioLayout path="/members-portal" component={MembersPortal} />
 						<DefaultLayout path="/" component={Home} />
 					</Switch>
 				</BrowserRouter>

@@ -125,6 +125,20 @@ a.button {
 	margin-right: 45px;
 }
 
+.flex-container img {
+	width: 333px;
+	height: 266px;
+	border: 1px solid #777;
+	opacity: .5;
+	cursor: pointer;
+	transition: opacity 1s;
+}
+
+.flex-container img:hover {
+	border-color: #D9E033;
+	opacity: 1;
+}
+
 /* Body Text */
 
 .about-text p:not(.lead) {
