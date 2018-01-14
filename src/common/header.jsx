@@ -11,6 +11,7 @@ class Header extends Component {
 			menuOpen: false
 		};
 
+		this.closeMenu = this.closeMenu.bind(this);
 		this.onMenuClick = this.onMenuClick.bind(this);
 	}
 
