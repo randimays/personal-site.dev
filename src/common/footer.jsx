@@ -9,8 +9,7 @@ const Footer = () => {
 			<div className="footer-container">
 				<p>
 					<span className="copyright">©</span>&nbsp;
-					{moment().format('YYYY')} randi mays&nbsp;&nbsp; |&nbsp;&nbsp; graphic designer&nbsp;&nbsp; |&nbsp;&nbsp; web developer&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp;
-					<a href="mailto:randi@randimariedesigns.com?Subject=Designer/Developer">randi@randimariedesigns.com</a>
+					{moment().format('YYYY')} randi mays&nbsp;&nbsp; |&nbsp;&nbsp; designer/developer
 				</p>
 				<div>
 					<a 

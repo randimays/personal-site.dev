@@ -25,18 +25,39 @@ header {
 
 .navbar-container {
 	display: flex;
-	width: 75%;
+	width: 90%;
 	margin: auto;
 	justify-content: space-between;
 	align-items: center;
 }
 
+@media screen and (min-width: 768px) {
+	.navbar-container {
+		width: 75%;
+	}
+}
+
 .navbar-links {
+	display: none;
+	position: absolute;
+	top: 60px;
+	right: 0;
 	margin: -10px 0 0 0;
 }
 
+.navbar-links.open {
+	display: block;
+	width: 100px;
+	padding: 12px 0;
+	text-align: center;
+	background-color: #F8F8F8;
+	border: 1px solid #E7E7E7;
+	border-top: none;
+}
+
 .navbar-links a {
-	padding: 14px;
+	display: block;
+	padding: 7px;
 	font-size: 14px;
 	color: #777;
 }
@@ -45,37 +66,13 @@ header {
 	background-color: #D9E033;
 }
 
-@media screen and (max-width: 767px) {
-	.navbar-links {
-		display: none;
-		position: absolute;
-		top: 60px;
-		right: 30px;
-	}
-
-	.navbar-links.open {
-		display: block;
-		width: 135px;
-		padding: 12px 0;
-		text-align: center;
-		background-color: #F8F8F8;
-    	border: 1px solid #E7E7E7;
-    	border-top: none;
-	}
-
-	.navbar-links a {
-		display: block;
-		padding: 7px;
-	}
-}
-
 .navbar-links a:last-child {
 	margin-right: 0;
 }
 
 .navbar-toggle {
 	position: absolute;
-    right: 77px;
+    right: 30px;
     top: 8px;
     padding: 9px 10px;
     margin-bottom: 8px;
@@ -84,12 +81,6 @@ header {
     border: 1px solid #DDD;
     border-radius: 4px;
     cursor: pointer;
-}
-
-@media screen and (min-width: 768px) {
-	.navbar-toggle {
-		display: none;
-	}
 }
 
 .navbar-toggle .icon-bar {
@@ -102,6 +93,38 @@ header {
 
 .navbar-toggle .icon-bar + .icon-bar {
 	margin-top: 4px;
+}
+
+@media screen and (min-width: 480px) {
+	.navbar-links {
+		right: 30px;
+	}
+
+	.navbar-links.open {
+		width: 135px;
+	}
+
+	.navbar-toggle {
+		right: 77px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.navbar-links {
+		position: relative;
+		display: inline-block;
+		top: initial;
+		right: initial;
+	}
+
+	.navbar-links a {
+		display: inline-block;
+		padding: 14px;
+	}
+
+	.navbar-toggle {
+		display: none;
+	}
 }
 
 /* Footer */
@@ -118,7 +141,13 @@ footer {
 footer a, footer p {
 	margin: 0;
 	color: #777;
-	font-size: 15px;
+	font-size: 13px;
+}
+
+@media screen and (min-width: 480px) {
+	footer a, footer p {
+		font-size: 15px;
+	}
 }
 
 .copyright {
@@ -130,9 +159,15 @@ footer a, footer p {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	width: 75%;
+	width: 90%;
 	margin: auto;
 	padding: 12px 0;
+}
+
+@media screen and (min-width: 768px) {
+	.footer-container {
+		width: 75%;
+	}
 }
 
 footer img {
