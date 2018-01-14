@@ -96,16 +96,8 @@ header {
 }
 
 @media screen and (min-width: 480px) {
-	.navbar-links {
-		right: 30px;
-	}
-
 	.navbar-links.open {
 		width: 135px;
-	}
-
-	.navbar-toggle {
-		right: 77px;
 	}
 }
 

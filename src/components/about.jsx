@@ -7,7 +7,7 @@ const About = () => {
 	return (
 		<div className="container">
 			<h1>About Me</h1>
-			<section className="flex-container">
+			<section className="flex-container about">
 				<img src={photo} className="randi-photo" alt="Randi Mays" />
 				<div className="about-text">
 					<p className="lead">I am a graphic designer and front end developer.</p>
@@ -20,8 +20,8 @@ const About = () => {
 			<a id="peacock"></a>
 			<h1>The Peacock</h1>
 
-			<section className="flex-container">
-				<img className="peacock" src={peacock} />
+			<section className="flex-container about">
+				<img src={peacock} className="peacock"/>
 				<div>
 					<p className="lead">The peacock is a visual representation of career progression and my brand mascot.</p>
 					<p>A marching band member in high school, I had to tie my hair up so it would fit in my plume-adorned helmet for shows. A good friend called my bun the 'Randi Peacock' because my hair would stick up from the back of my head.</p>
