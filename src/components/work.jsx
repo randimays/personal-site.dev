@@ -6,7 +6,7 @@ const Work = () => {
 	return (
 		<div className="container">
 			<h1>Work</h1>
-			<div className="flex-container">
+			<div className="flex-container work">
 				<Link to="/members-portal">
 					<img 
 						alt="Members Portal site"

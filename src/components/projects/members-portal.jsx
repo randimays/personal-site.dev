@@ -5,7 +5,7 @@ const MembersPortal = () => {
 		<div class="container">
 			<a id="top" />
 			<img src="/img/mp_home.png" class="img-responsive about" alt="Members Portal Home" />
-			<h1>About Members Portal</h1>
+			<h1>Members Portal</h1>
 
 			<section class="centerWhiteBoxAbout">
 				<p class="lead">Members Portal is an application designed to facilitate trusted professional connections between members of a city organization such as a chamber of commerce. The portal is also designed to serve as an invaluable resource for staffing (per-project or permanent) needs.</p>

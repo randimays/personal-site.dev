@@ -41,18 +41,67 @@ header {
 	color: #777;
 }
 
+.navbar-links a:hover, .navbar-links a:active {
+	background-color: #D9E033;
+}
+
+@media screen and (max-width: 767px) {
+	.navbar-links {
+		display: none;
+		position: absolute;
+		top: 60px;
+		right: 30px;
+	}
+
+	.navbar-links.open {
+		display: block;
+		width: 135px;
+		padding: 12px 0;
+		text-align: center;
+		background-color: #F8F8F8;
+    	border: 1px solid #E7E7E7;
+    	border-top: none;
+	}
+
+	.navbar-links a {
+		display: block;
+		padding: 7px;
+	}
+}
+
 .navbar-links a:last-child {
 	margin-right: 0;
 }
 
-.navbar-links .active {
-	background-color: #D9E033;
+.navbar-toggle {
+	position: absolute;
+    right: 77px;
+    top: 8px;
+    padding: 9px 10px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid #DDD;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 @media screen and (min-width: 768px) {
 	.navbar-toggle {
 		display: none;
 	}
+}
+
+.navbar-toggle .icon-bar {
+	display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+    background-color: #888;
+}
+
+.navbar-toggle .icon-bar + .icon-bar {
+	margin-top: 4px;
 }
 
 /* Footer */

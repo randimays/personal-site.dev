@@ -125,7 +125,7 @@ a.button {
 	margin-right: 45px;
 }
 
-.flex-container img {
+.flex-container.work img {
 	width: 333px;
 	height: 266px;
 	border: 1px solid #777;
