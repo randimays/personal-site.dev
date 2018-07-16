@@ -12,13 +12,15 @@ import Work from './components/work';
 import Contact from './components/contact';
 import MembersPortal from './components/projects/members-portal';
 import './css/main.css';
-import './css/header-footer.css';
 import './css/archer.css';
 import './css/calculator.css';
+import './css/footer.css';
+import './css/header-footer.css';
 import './css/peacock.css';
 import './css/weather.css';
+import './css/members-portal.css';
 
-let store = configureStore();
+let reduxStore = configureStore();
 
 const DefaultLayout = ({component: Component, ...rest}) => {
 	return (
@@ -45,7 +47,7 @@ const PortfolioLayout = ({component: Component, ...rest}) => {
 class App extends Component {
 	render() {
 		return (
-			<Provider store={store}>
+			<Provider store={reduxStore}>
 				<BrowserRouter>
 					<Switch>
 						<DefaultLayout path="/about" component={About} />

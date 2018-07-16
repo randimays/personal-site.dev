@@ -1,0 +1,225 @@
+article, section, aside, hgroup, nav, header, footer, figure, figcaption { 
+    display: block; 
+}
+
+@-webkit-viewport { width: device-width; }
+@-moz-viewport { width: device-width; }
+@-ms-viewport { width: device-width; }
+@-o-viewport { width: device-width; }
+@viewport { width: device-width; }
+
+html, body { 
+    width: 100%; 
+    height: 100%;
+    margin: 0; 
+}
+
+img {
+    width: 100%;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+body { 
+    display: table; 
+    font-family: 'Source Sans Pro', sans-serif; 
+    background-color: #fffef4; 
+    color: #514e43; 
+}
+
+.container { 
+    position: relative;
+    width: 90%; 
+    margin-bottom: 30px; 
+}
+
+.footer.container { 
+    width: 60%; 
+    padding-top: 20px; 
+    padding-bottom: 20px; 
+}
+
+.about { 
+    border: 1px solid #d3e397;
+}
+
+.centerWhiteBoxAbout { 
+    min-height: 100%;
+    padding: 30px 40px; 
+    background-color: #fff; 
+    border: 1px solid #d3e397; 
+}
+
+.lead.developers { 
+    margin: 15px 0 7px 0; 
+}
+
+.accordionHeaders { 
+    margin-bottom: 10px; 
+    cursor: pointer;
+}
+
+.aboutDevelopers { 
+    display: inline-block;
+    margin: 20px 0; 
+}
+
+.aboutDevelopers:first-of-type {
+    margin-right: 45px;
+}
+
+.aboutDevelopers p {
+    margin: 4px 0 0;
+}
+
+.leaderHeadshot, .leaderHeadshotAbout { 
+    width: 100px; 
+    height: 100px; 
+    overflow: hidden; 
+    margin: auto; 
+}
+
+.leaderHeadshotAbout { 
+    display: inline-block; 
+}
+
+.aboutDiv h3 { 
+    margin-bottom: 10px; 
+    text-align: left; 
+}
+
+.aboutPage { 
+    margin: 0 0 50px 0; 
+}
+
+.aboutDiv {
+    margin: 0 0 50px 0;
+}
+
+.aboutDiv p {
+    margin: 0;
+}
+
+@media screen and (min-width: 601px) {
+    .aboutDiv {
+        margin-left: 10%;
+    }
+}
+
+@media (min-width: 992px) { 
+    .aboutPage { 
+        margin-top: 115px; 
+    }
+
+    .aboutPage h3 { 
+        margin-top: 0; 
+    }
+}
+
+.aboutPage:first-of-type {
+    margin-top: 0;
+}
+
+.boldBlueText, .blue, .blue:visited, .red:active { 
+    color: #8dcdc1; 
+}
+
+.blue:hover { 
+    color: #66a498; 
+}
+
+a, a:hover, a:visited, a:active { 
+    text-decoration: none; 
+}
+
+.red, .required, .red:visited { 
+    color: #eb6e44; 
+}
+
+.red:hover { 
+    color: #c65c39; 
+}
+
+.red.block { 
+    display: block; 
+    margin: 0 auto 15px; 
+}
+
+.dkgreen { 
+    color: #b7c483; 
+}
+
+.noMargin { 
+    margin-bottom: 0; 
+}
+
+.smallMargin { 
+    margin-bottom: 3px; 
+}
+
+.smallCentered, .small { 
+    margin: 0 auto 5px; 
+    font-size: .9em; 
+}
+
+.small { 
+    margin: 0 auto; 
+    font-size: .8em; 
+    color: #7c786a; 
+    line-height: 1.4em; 
+}
+
+.leaderTitle { 
+    margin: 0; 
+    font-family: 'Roboto Slab', serif; 
+    letter-spacing: .5px; 
+    font-size: .95em; 
+}
+
+h1, h3, h4, h5 { 
+    font-family: 'Roboto Slab', serif; 
+}
+
+h1 { 
+    margin: 45px 0; 
+    color: #7c786a; 
+    font-size: 1.75em;
+}
+
+h3, h3 a { 
+    margin-top: 0; 
+    margin-bottom: 5px; 
+    font-size: 1.10em; 
+    color: #7c786a; 
+    line-height: 1.25em; 
+}
+
+h3 a:hover { 
+    color: #c65c39; 
+}
+
+h5 {
+    margin: 0 0 7px;
+    color: #7c786a;
+    font-size: 1em;
+}
+
+p { 
+    line-height: 1.35em; 
+}
+
+.access, .devs, .tech {
+    display: none;
+}
+
+.open {
+    display: block;
+}

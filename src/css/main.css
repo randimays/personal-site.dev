@@ -60,15 +60,16 @@ a.header-name {
 /* Peacock - Main Page */
 
 .peacock-illustration {
-	margin: 0 auto;
-	padding: 55px 0 0;
 	width: 300px;
+	position: fixed;
+	top: calc(50% - 233px);
+	left: calc(50% - 150px);
 }
 
 .peacock-link {
 	position: absolute;
-	left: 59%;
-	top: 44%;
+	top: calc(50%);
+	left: calc(50% + 55px);
 	text-decoration: none;
 	color: #FBAF3F;
 	font-size: 15px;
@@ -78,13 +79,6 @@ a.header-name {
 	animation-timing-function: ease-in;
 	opacity: 0;
 	animation-fill-mode: forwards;
-}
-
-@media screen and (min-width: 768px) {
-	.peacock-link {
-		left: 55%;
-		top: 38%;
-	}
 }
 
 @-webkit-keyframes peacockLink {
@@ -125,6 +119,14 @@ h1 {
 
 a.button {
 	text-decoration: none;
+}
+
+a.button:hover, a.button:active {
+	color: #333;
+}
+
+a.button:visited, a.button:focus {
+	color: white;
 }
 
 .button:hover {
