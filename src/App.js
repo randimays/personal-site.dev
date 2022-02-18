@@ -10,7 +10,9 @@ import Home from './components/home';
 import About from './components/about';
 import Work from './components/work';
 import Contact from './components/contact';
+
 import MembersPortal from './components/projects/members-portal';
+
 import './css/main.css';
 import './css/header-footer.css';
 import './css/archer.css';
@@ -36,7 +38,9 @@ const PortfolioLayout = ({component: Component, ...rest}) => {
 	return (
 		<Route {...rest} render={matchProps => (
 			<div>
+				<Header />
 				<Component {...matchProps} />
+				<Footer />
 			</div>
 		)} />
 	);

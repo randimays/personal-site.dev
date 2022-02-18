@@ -134,6 +134,23 @@ a.button {
 
 /* Images */
 
+img {
+	border: 1px solid #e7e7e7;
+}
+
+.container.about img {
+	width: 100%;
+}
+
+img.about {
+	margin-bottom: 42px;
+}
+
+.container.about img.img-thumbnail {
+	width: 100px;
+	border-radius: 50%;
+}
+
 .randi-photo, .peacock {
 	display: block;
 	margin: 0 auto 22px;
@@ -243,6 +260,17 @@ textarea {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 body.extra_footer_space {
 	padding-bottom: 100px;
 }
@@ -330,11 +358,6 @@ div.about {
 
 img.thumb {
 	border: 1px solid #e7e7e7;
-}
-
-img.mp_full {
-	border-top: 1px solid #e7e7e7;
-	border-bottom: 1px solid #e7e7e7;
 }
 
 img.liv_100_width_image {

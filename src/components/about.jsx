@@ -17,11 +17,21 @@ const About = () => {
 				</div>
 			</section>
 
-			<a id="peacock"></a>
+			<a 
+				alt="The Peacock" 
+				className="sr-only" 
+				id="peacock" 
+			>
+				The Peacock (description)
+			</a>
 			<h1>The Peacock</h1>
 
 			<section className="flex-container about">
-				<img src={peacock} className="peacock"/>
+				<img 
+					alt="The Peacock illustration"
+					src={peacock} 
+					className="peacock"
+				/>
 				<div>
 					<p className="lead">The peacock is a visual representation of career progression and my brand mascot.</p>
 					<p>A marching band member in high school, I had to tie my hair up so it would fit in my plume-adorned helmet for shows. A good friend called my bun the 'Randi Peacock' because my hair would stick up from the back of my head.</p>
